@@ -1,0 +1,324 @@
+﻿.wrapper {
+    background: url('../images/rectangle_herohead.png') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header {
+    border-bottom: 1px solid white;
+    height: 109px;
+}
+
+.container {
+    width: 1110px;
+    height: 100%;
+    margin: auto;
+}
+
+.inside-container {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items:center;
+     height: 100%;
+}
+
+.menu {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 516px;
+}
+
+.menu-item {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
+.menu-item:hover {
+    color: darkblue;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
+.contacts-header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.middlde-box {
+    background: url('../images/rectangle_middle.png') left no-repeat;
+    background-size: 50% 100%;
+    padding: 7% 0%;
+
+}
+
+.mini-container {
+    position: relative;
+    margin: auto;
+    width: 825px;
+}
+
+.title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #000000;
+}
+
+.subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+    margin-top: 20px;
+}
+
+.projects-text-block {
+    
+    width: 428px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 40px 50px 50px 60px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 5;
+    margin-top: 80px;
+}
+
+.slider-item {
+    position: relative;
+    height: 450px;
+}
+
+.project-image {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.buttons {  
+    position: absolute;
+    left: 2px;
+    bottom: 0px;
+}
+
+.imgprev:hover {
+
+    opacity: 0.3;
+
+}
+
+.img-rotate:hover {
+
+    opacity: 0.3;
+
+}
+
+.img-rotate {
+    transform: rotate(180deg);
+}
+
+.news-box {
+    background: url('../images/rectangle_news.png') right no-repeat;
+    background-size: 50% 100%;
+    padding: 7% 0%;
+    position: relative;
+}
+
+.button-news {
+     background-color: #0F4898;
+     color: #FFFFFF;
+     text-align: center;
+     padding:4px;
+     width:149px;
+     height: 40px;
+     position: absolute;
+     right: 0px;
+     top: 5px;
+     border: none;
+     box-shadow: none;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+}
+
+.button-news:hover {
+
+    background-color: lightblue;
+    color:#0F4898;
+
+}
+
+.news-box-mini {
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+.news-item {
+
+background-color: #FFFFFF;
+box-shadow: 0px 0px 2px grey;
+box-shadow: 0px 0px 20px rgba(224, 224, 224, 0.25);
+height: 500px;
+width: 255px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: right;
+
+}
+
+.date-text {
+
+width: 64px;
+height: 10px;
+
+margin: 0px 20px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 13px;
+letter-spacing: 0.05em;
+
+color: #343434;
+}
+
+.news-title {
+
+width: 213px;
+height: 42px;
+
+margin: 0px 20px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0.03em;
+
+color: #303942;
+
+}
+
+.news-text {
+
+width: 215px;
+height: 82px;
+
+margin: 0px 20px;
+overflow: hidden;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 14px;
+letter-spacing: 0.05em;
+
+color: #000000;
+
+}
+
+.button-news-item {
+
+     background-color: #0F4898;
+     color: #FFFFFF;
+     text-align: center;
+     padding:4px;
+     width: 125px;
+     height: 40px;
+     border: none;
+     box-shadow: none;
+     margin: 0px 20px 20px;
+
+}
+
+.button-news-item:hover {
+
+    background-color: lightblue;
+    color:#0F4898;
+
+}
+
+.footer {
+
+    height: 125px;
+    background: #323232;
+}
+
+.footer-links {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    padding: 40px 450px;
+    
+}
+
+.footer-item {
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 16px;
+letter-spacing: 0.05em;
+text-decoration: none; /* Отменяем подчеркивание у ссылки */
+
+color: #FFFFFF;
+
+}
+
+.footer-item:hover {
+
+    box-shadow: 0px 0px 2px  lightgoldenrodyellow;
+
+}
+
+.end-message {
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #DCDCDC;
+
+}
